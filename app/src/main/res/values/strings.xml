@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Codelean</string>
+    <string name="p1">Kotlin Dasar</string>
+    <string name="p2">Android Dasar</string>
+    <string name="bljrkotlin">Belajar Kotlin</string>
+    <string name="bljrandro">Belajar Android</string>
+</resources>
