@@ -24,7 +24,7 @@ class ExampleInstrumentedTest {
             .check(matches(withText("Kotlin")))
         onView(withId(R.id.cardID)).perform(click())
     }
-//
+
     @Test
     fun click_cardAndroid() {
         onView(withId(R.id.title2))
