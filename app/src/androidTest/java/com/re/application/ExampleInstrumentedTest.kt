@@ -11,7 +11,6 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Test
 import org.junit.runner.RunWith
 
-import org.junit.Assert.*
 import org.junit.Rule
 
 @RunWith(AndroidJUnit4::class)
@@ -20,14 +19,14 @@ class ExampleInstrumentedTest {
     val activity = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
-    fun click_cardkotlin() {
+    fun click_cardKotlin() {
         onView(withId(R.id.title))
             .check(matches(withText("Kotlin")))
         onView(withId(R.id.cardID)).perform(click())
     }
 
     @Test
-    fun click_cardandroid() {
+    fun click_cardAndroid() {
         onView(withId(R.id.title2))
             .check(matches(withText("Android Dasar")))
         onView(withId(R.id.cardID2)).perform(click())
