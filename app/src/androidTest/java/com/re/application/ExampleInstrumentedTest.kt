@@ -25,6 +25,7 @@ class ExampleInstrumentedTest {
         onView(withId(R.id.cardID)).perform(click())
     }
 
+
     @Test
     fun click_cardAndroid() {
         onView(withId(R.id.title2))
